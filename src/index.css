@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-blue-950 h-full
+  @apply bg-blue h-full
 }
 
 html {
