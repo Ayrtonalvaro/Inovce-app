@@ -1,5 +1,6 @@
 import HeaderInvoce from "../components/HeaderInvoce"
 import { Link } from 'react-router-dom'
+import InvoiceInfo from "../components/InvoiceInfo"
 const Invoce = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const Invoce = () => {
           </button>
         </Link>
         <HeaderInvoce />
+        <InvoiceInfo />
       </div>
     </>
   )

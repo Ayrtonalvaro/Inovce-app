@@ -6,6 +6,7 @@ export default {
     screens: {},
     colors: {
       blue: '#141625',
+      black: '#000000',
       ligthBlue: '#1F213A',
       violet: '#7B5DF9',
       white: '#FEFFFF',
@@ -14,7 +15,8 @@ export default {
       yellow: '#FF8700',
       red: '#FF5452',
       bgStatusGreen: '#223043',
-      bgStatusYellow: '#2B2831'
+      bgStatusYellow: '#2B2831',
+      bgInfo: '#192038'
     }
   },
   plugins: []

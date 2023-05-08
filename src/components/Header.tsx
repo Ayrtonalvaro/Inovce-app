@@ -1,5 +1,6 @@
 import NewInvoceButton from "./NewInvoceButton"
 import iconArrowDown from "../assets/icon-arrow-down.svg"
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
@@ -13,7 +14,9 @@ const Header = () => {
           <label>Filter by status</label>
           <img src={iconArrowDown} alt="icon-arrow" />
         </div>
-        <NewInvoceButton />
+        <Link to="/newInvoice" >
+          <NewInvoceButton />
+        </Link>
       </div>
     </div>
   )
