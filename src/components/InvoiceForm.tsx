@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const InvoiceForm = () => {
   return (
     <div className="bg-blue ">
@@ -136,8 +138,15 @@ const InvoiceForm = () => {
         + Add new item
       </button>
       <div className="flex gap-10 justify-end mt-5">
-        <button className="bg-ligthBlue h-12 rounded-full w-20 text-white">Cancel</button>
-        <button className="bg-violet h-12 rounded-full w-20 text-white">Save</button>
+        <Link to="/">
+          <button className="bg-ligthBlue h-12 rounded-full w-20 text-white">
+            Cancel
+          </button>
+        </Link>
+
+        <button className="bg-violet h-12 rounded-full w-20 text-white">
+          Save
+        </button>
       </div>
     </div>
   )

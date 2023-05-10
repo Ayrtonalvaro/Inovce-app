@@ -13,7 +13,7 @@ function App() {
         <div className="flex justify-center py-20 w-full">
           <Routes>
             <Route path="" element={<Home />} />
-            <Route path="/invoice" element={<Invoce />} />
+            <Route path="/invoice/:id" element={<Invoce />} />
             <Route path="/newInvoice" element={<NewInvoice />} />
           </Routes>
         </div>

@@ -3,7 +3,7 @@ import perfilImg from '../assets/image-avatar.jpg'
 import ThemeButton from './ThemeButton'
 const Sidebar = () => {
   return (
-    <div className="h-screen bg-ligthBlue flex flex-col justify-between rounded-r-xl">
+    <div className="h-screen bg-ligthBlue flex flex-col justify-between rounded-r-xl fixed">
         <img src={logo} alt="logo-img" className="w-20" />
         <div className="flex flex-col gap-5 items-center py-5">
           <ThemeButton />
